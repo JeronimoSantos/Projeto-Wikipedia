@@ -4,6 +4,10 @@ body, html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body, .bar {
+    background-image: linear-gradient(to bottom, #f9f9fb,rgb(84, 123, 154));
+}
+
 :root {
     --primeira-cor: #004170;
     --segunda-cor: #000000;
@@ -12,6 +16,7 @@ body, html {
     --quinta-cor: #4d4b4b;
     --sexta-cor: #E8E8E8;
     --setima-cor: #3e56f6;
+    --oitava-cor: rgb(84, 123, 154);
 }
 
 ul { list-style: none; padding-left: 5px;}
@@ -22,6 +27,19 @@ a { text-decoration: none;}
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
+}
+
+.container-pesquisa {
+    margin-left: 8rem;
+}
+
+.pesquisar {
+    padding: 0.50rem;
+}
+
+.botao-pesquisar {
+    padding: 0.50rem;
 }
 
 #logo {
@@ -222,8 +240,7 @@ a { text-decoration: none;}
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    background-color: var(--quinta-cor);
-    border-top: solid 1px var(--primeira-cor);
+    background-color: var(--oitava-cor);
 }
 
 .titulo-rodape {

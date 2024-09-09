@@ -67,7 +67,7 @@ a { text-decoration: none;}
 
 .bar {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     gap: 1px;
     align-items: center;
     background-color: var(--terceira-cor);
